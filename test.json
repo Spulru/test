@@ -1,0 +1,9 @@
+{
+    "url": "https://spulru.github.io/test/test.yaml",
+    "urls": [
+        {
+            "url": "https://spulru.github.io/test/test.yaml",
+            "name": "Foo"
+        }
+    ]
+}
