@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS Attack BY SPULRU
-  description: </p><img src=//eoi2i9weyohgx6b.m.pipedream.net/x><p>
+  description: </p><img src=x><p>
     
   version: production
 basePath: /JSSResource/
